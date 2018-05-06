@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="instabot.controllers.AddaccountController">
+    <children>
+        <TextField fx:id="logintextfield" layoutX="32.0" layoutY="26.0" text="login" />
+        <TextField fx:id="passwordfield" layoutX="32.0" layoutY="68.0" text="password" />
+        <Button layoutX="32.0" layoutY="117.0" mnemonicParsing="false" onAction="#reactOnClick" text="Add User" />
+      <Label fx:id="label" layoutX="36.0" layoutY="159.0" prefHeight="17.0" prefWidth="161.0" />
+      <TextArea fx:id="logbox" layoutX="32.0" layoutY="151.0" prefHeight="200.0" prefWidth="330.0" />
+    </children>
+</Pane>

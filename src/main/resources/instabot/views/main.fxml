@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<SplitPane id="mySplitPane" dividerPositions="0.29797979797979796" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="502.0" prefWidth="835.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="instabot.controllers.MainViewController">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+         <children>
+            <Button layoutX="7.0" layoutY="14.0" mnemonicParsing="false" onAction="#showSomeButtonView" prefHeight="26.0" prefWidth="189.0" text="Follow By Hashtag" />
+            <Button layoutX="7.0" layoutY="48.0" mnemonicParsing="false" onAction="#showSomeOtherView" prefHeight="26.0" prefWidth="189.0" text="Like By Hashtag" />
+            <Button layoutX="7.0" layoutY="80.0" mnemonicParsing="false" onAction="#showAddAccountView" prefHeight="25.0" prefWidth="189.0" text="Add Account" />
+         </children></AnchorPane>
+      <Pane id="rightPane" fx:id="myDynamicPane" prefHeight="516.0" prefWidth="542.0" />
+  </items>
+</SplitPane>
